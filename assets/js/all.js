@@ -108,6 +108,10 @@ var app = Vue.createApp({
       benefits: {
         tw: [{
           brfore: [{
+            icon: 'bi bi-tropical-storm',
+            title: '全新體驗',
+            text: '全面提升顧客的咖啡品嘗體驗。'
+          }, {
             icon: 'bi bi-person-check',
             title: '兼顧專注手沖和細微客戶服務',
             text: '咖啡師不再被束縛在吧檯，可增加與消費者交流時間。'
@@ -129,13 +133,17 @@ var app = Vue.createApp({
         }],
         us: [{
           brfore: [{
+            icon: 'bi bi-tropical-storm',
+            title: 'A Distinct New Menu Item',
+            text: 'Cafe owners now have a viable option to offer consistent pour-over coffee that will enhance their customers coffee drinking experience.'
+          }, {
             icon: 'bi bi-person-check',
             title: 'Balancing customer service & coffee quality',
-            text: 'Baristas now have more time to communicate with customers without giving up the quality of coffee.'
+            text: 'Baristas will have more time to sell the pour-over coffee option without giving up the time to do or the quality of the pour over.'
           }, {
             icon: 'bi bi-currency-dollar',
             title: 'Low manpower demand',
-            text: 'With one touch brew and pre-loaded recipes, anyone can be a qualified barista.'
+            text: 'With one touch brewing and pre-loaded recipes, anyone can be a qualified pour-over barista.'
           }]
         }, {
           after: [{
