@@ -82,7 +82,7 @@ var app = Vue.createApp({
           // icon: 'bi bi-hand-index-thumb',
           img: '5',
           title: 'One Touch Brewing',
-          text: 'Brew with a touch of the button from the pre-loaded recipes.'
+          text: 'Brew with a touch of a button from the pre-loaded recipes.'
         }, {
           // icon: 'bi bi-cup',
           img: '2',
