@@ -19,11 +19,11 @@ var app = Vue.createApp({
       current_model: 0,
       nav: {
         tw: [{
-          link: '#benefits',
-          text: '產品優勢'
-        }, {
           link: '#feature',
           text: '產品特色'
+        }, {
+          link: '#benefits',
+          text: '產品優勢'
         }, {
           link: '#store',
           text: '品牌故事'
